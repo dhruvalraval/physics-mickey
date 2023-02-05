@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    height: 100%;
+    padding: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100%;
+    place-items: center;
+}
+
+.nav_logo{
+    justify-self: start;
+    grid-column: 1/2;
+    font-size: 4rem;
+    color: #fff;
+    font-family: "AW Exteria Typeface Beta Regular";
+}
+
+.nav_about{
+    justify-self: end;
+    grid-column: 3/4;
+    font-size: 4rem;
+    color: #fff;
+    font-family: "AW Exteria Typeface Beta Regular";
+}
